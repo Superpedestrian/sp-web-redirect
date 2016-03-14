@@ -1,0 +1,24 @@
+{
+  "AWSEBDockerrunVersion": 2,
+  "volumes": [],
+  "containerDefinitions": [
+    {
+      "name": "sp-web-redirect-support",
+      "image": "superpedestrian/sp-web-redirect",
+      "essential": true,
+      "memory": 128,
+      "mountPoints": [
+        {
+          "sourceVolume": "awseb-logs-sp-web-redirect-support",
+          "containerPath": "/var/log/"
+        }
+      ],
+      "portMappings": [
+        {
+          "hostPort": 80,
+          "containerPort": 80
+        }
+      ]        
+    }
+  ]
+}

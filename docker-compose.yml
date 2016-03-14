@@ -1,0 +1,6 @@
+web:
+  build: .
+  environment:
+    DESTINATION:
+  ports:
+    - "8080:80"
