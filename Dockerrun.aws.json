@@ -10,7 +10,7 @@
       "mountPoints": [
         {
           "sourceVolume": "awseb-logs-sp-web-redirect-support",
-          "containerPath": "/var/log/"
+          "containerPath": "/var/log/nginx"
         }
       ],
       "portMappings": [
