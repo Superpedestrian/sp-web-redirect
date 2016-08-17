@@ -16,6 +16,6 @@ and then opening a browser to `http://<dockerip>:8080/blah/blah` and you should 
 There is now an option to enable deep redirection, so if you set
 `DEEP_REDIRECT` environment variable, with the same destination, going
 to `http://<dockerip>:8080/blah/blah` will redirect to
-`https://google.com/blah/lbah`
+`https://google.com/blah/blah`
 
 
