@@ -1,3 +1,4 @@
 FROM nginx
-COPY default.conf.template /etc/nginx/conf.d/default.conf.template
-CMD /bin/bash -c "envsubst < /etc/nginx/conf.d/default.conf.template > /etc/nginx/conf.d/default.conf && nginx -g 'daemon off;'"
+COPY *.template /etc/nginx/conf.d/
+COPY start_nginx.sh /usr/local/bin
+CMD /usr/local/bin/start_nginx.sh
