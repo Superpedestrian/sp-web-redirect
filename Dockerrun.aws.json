@@ -4,7 +4,7 @@
   "containerDefinitions": [
     {
       "name": "sp-web-redirect-support",
-      "image": "superpedestrian/sp-web-redirect:release-0.1.2",
+      "image": "superpedestrian/sp-web-redirect:release-0.2.1",
       "essential": true,
       "memory": 128,
       "mountPoints": [
