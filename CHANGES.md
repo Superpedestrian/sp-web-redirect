@@ -1,5 +1,8 @@
 # Changes
 
+## 0.2.1
+
+- Corrected EB Dockerrun to use new version
 
 ## 0.2.0
 
